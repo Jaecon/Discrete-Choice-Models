@@ -1,4 +1,6 @@
 % Main file
+% Based on code written by Matthijs Wildenbeest, April 2010
+% Adapted by Jaejeong Shin, April 2018
 
 clear all;
 warning off all
