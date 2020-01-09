@@ -1,6 +1,4 @@
 % Main file
-% Written by Matthijs Wildenbeest, April 2010.
-% cd '\\Client\C$\Users\Jay Shin\Box Sync\Box_Sync-01112018-backup_gmail\1_CU\2018_6_Spring\924_De los Santos\Assignment1'
 
 clear all;
 warning off all
@@ -12,7 +10,7 @@ seed = rng;
 
 load cars.mat;      % sales 50 or less excluded, no exotic makes
 
-tbl = 2;              % number of markets
+tbl = 2;            % number of markets
 k = 7;              % number of characteristics used (constant, pj, 10*hp./weight, american+asian, airco, kpe/10, sizecar)
 nsm = 200;          % number of simulated "indviduals" per market 
 
